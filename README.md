@@ -61,7 +61,7 @@ India’s intangible cultural heritage faces several challenges:
 
 ## 💡 Our Solution
 
-Virasat AI provides:
+Virasat AI provides:-
 
 - 📤 Community-driven cultural content uploads  
 - 🧾 AI-based transcription & smart semantic tagging  
