@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'DM Sans', sans-serif;
+
+    --background: 35 30% 97%;
+    --foreground: 25 30% 12%;
+
+    --card: 35 25% 95%;
+    --card-foreground: 25 30% 12%;
+
+    --popover: 35 30% 97%;
+    --popover-foreground: 25 30% 12%;
+
+    --primary: 25 85% 50%;
+    --primary-foreground: 40 100% 97%;
+
+    --secondary: 220 45% 25%;
+    --secondary-foreground: 40 100% 97%;
+
+    --muted: 35 15% 90%;
+    --muted-foreground: 25 10% 45%;
+
+    --accent: 45 90% 55%;
+    --accent-foreground: 25 30% 12%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 30 20% 85%;
+    --input: 30 20% 85%;
+    --ring: 25 85% 50%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 25 20% 15%;
+    --sidebar-foreground: 35 20% 90%;
+    --sidebar-primary: 25 85% 50%;
+    --sidebar-primary-foreground: 40 100% 97%;
+    --sidebar-accent: 25 15% 22%;
+    --sidebar-accent-foreground: 35 20% 90%;
+    --sidebar-border: 25 15% 25%;
+    --sidebar-ring: 25 85% 50%;
+
+    /* Custom heritage tokens */
+    --heritage-saffron: 25 85% 50%;
+    --heritage-terracotta: 15 65% 45%;
+    --heritage-indigo: 220 45% 25%;
+    --heritage-gold: 45 90% 55%;
+    --heritage-cream: 40 40% 95%;
+    --heritage-warm-gray: 30 10% 60%;
+    --heritage-deep: 25 30% 10%;
+
+    --gradient-hero: linear-gradient(135deg, hsl(25 85% 50% / 0.9), hsl(220 45% 25% / 0.85));
+    --gradient-warm: linear-gradient(135deg, hsl(25 85% 50% / 0.1), hsl(45 90% 55% / 0.1));
+    --gradient-card: linear-gradient(180deg, hsl(35 25% 95%), hsl(35 30% 97%));
+
+    --shadow-warm: 0 4px 20px -4px hsl(25 85% 50% / 0.15);
+    --shadow-elevated: 0 8px 30px -8px hsl(25 30% 12% / 0.12);
+    --shadow-card: 0 2px 12px -2px hsl(25 30% 12% / 0.08);
+  }
+
+  .dark {
+    --background: 25 20% 8%;
+    --foreground: 35 20% 92%;
+
+    --card: 25 18% 12%;
+    --card-foreground: 35 20% 92%;
+
+    --popover: 25 18% 12%;
+    --popover-foreground: 35 20% 92%;
+
+    --primary: 25 85% 55%;
+    --primary-foreground: 25 30% 10%;
+
+    --secondary: 220 35% 55%;
+    --secondary-foreground: 25 30% 10%;
+
+    --muted: 25 12% 18%;
+    --muted-foreground: 30 10% 55%;
+
+    --accent: 45 80% 50%;
+    --accent-foreground: 25 30% 10%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 25 12% 20%;
+    --input: 25 12% 20%;
+    --ring: 25 85% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .text-gradient-heritage {
+    background: linear-gradient(135deg, hsl(25 85% 50%), hsl(45 90% 55%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-heritage-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d97706' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+}

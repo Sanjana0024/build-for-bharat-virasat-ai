@@ -1,0 +1,126 @@
+import { HeritageItem } from "@/components/HeritageCard";
+
+import folkArtsImg from "@/assets/category-folk-arts.jpg";
+import oralTraditionsImg from "@/assets/category-oral-traditions.jpg";
+import ritualsImg from "@/assets/category-rituals.jpg";
+import languagesImg from "@/assets/category-languages.jpg";
+import customsImg from "@/assets/category-customs.jpg";
+
+export const categories = [
+  {
+    title: "Folk Arts",
+    description: "Traditional dance, music, painting, and theater",
+    image: folkArtsImg,
+    slug: "folk-arts",
+    count: 248,
+  },
+  {
+    title: "Oral Traditions",
+    description: "Stories, proverbs, songs passed through generations",
+    image: oralTraditionsImg,
+    slug: "oral-traditions",
+    count: 186,
+  },
+  {
+    title: "Rituals & Ceremonies",
+    description: "Sacred practices, festivals, and spiritual traditions",
+    image: ritualsImg,
+    slug: "rituals",
+    count: 152,
+  },
+  {
+    title: "Languages & Scripts",
+    description: "Endangered languages, dialects, and writing systems",
+    image: languagesImg,
+    slug: "languages",
+    count: 94,
+  },
+  {
+    title: "Local Customs",
+    description: "Community practices, crafts, and daily traditions",
+    image: customsImg,
+    slug: "customs",
+    count: 210,
+  },
+];
+
+export const sampleItems: HeritageItem[] = [
+  {
+    id: "1",
+    title: "Baul Songs of Bengal — The Wandering Minstrels",
+    description: "A collection of mystical folk songs from the Baul tradition of rural Bengal, expressing themes of divine love and spiritual seeking.",
+    category: "folk-arts",
+    region: "West Bengal",
+    language: "Bengali",
+    type: "audio",
+    tags: ["Baul", "Folk Music", "Mysticism", "Bengal"],
+    thumbnail: folkArtsImg,
+    contributor: "Dr. Ananya Sen",
+    date: "2026-01-15",
+  },
+  {
+    id: "2",
+    title: "Grandmother's Tales — Oral Narratives from Rajasthan",
+    description: "Recorded stories from elderly women in Jaisalmer villages, preserving folk wisdom and moral tales from the Thar Desert region.",
+    category: "oral-traditions",
+    region: "Rajasthan",
+    language: "Marwari",
+    type: "video",
+    tags: ["Storytelling", "Rajasthan", "Folk Tales", "Women"],
+    thumbnail: oralTraditionsImg,
+    contributor: "Priya Rathore",
+    date: "2026-02-03",
+  },
+  {
+    id: "3",
+    title: "Theyyam — The Living Gods of Malabar",
+    description: "Documentation of the Theyyam ritual art form from northern Kerala, where performers embody deities through elaborate costumes and dance.",
+    category: "rituals",
+    region: "Kerala",
+    language: "Malayalam",
+    type: "video",
+    tags: ["Theyyam", "Ritual Art", "Kerala", "Dance"],
+    thumbnail: ritualsImg,
+    contributor: "Vishnu Nair",
+    date: "2026-01-28",
+  },
+  {
+    id: "4",
+    title: "Tulu Language Documentation — Coastal Karnataka",
+    description: "Phonetic recordings and linguistic analysis of the Tulu language, spoken by over 2 million people but lacking official recognition.",
+    category: "languages",
+    region: "Karnataka",
+    language: "Tulu",
+    type: "audio",
+    tags: ["Tulu", "Endangered Language", "Linguistics", "Karnataka"],
+    thumbnail: languagesImg,
+    contributor: "Prof. Raghav Shetty",
+    date: "2025-12-20",
+  },
+  {
+    id: "5",
+    title: "Phulkari Embroidery — Punjab's Floral Legacy",
+    description: "Video documentation of the traditional Phulkari embroidery technique from Punjab, showing intricate floral patterns and geometric designs.",
+    category: "customs",
+    region: "Punjab",
+    language: "Punjabi",
+    type: "video",
+    tags: ["Phulkari", "Embroidery", "Punjab", "Textile Art"],
+    thumbnail: customsImg,
+    contributor: "Gurpreet Kaur",
+    date: "2026-02-10",
+  },
+  {
+    id: "6",
+    title: "Warli Painting — Tribal Art of Maharashtra",
+    description: "Traditional Warli paintings depicting daily life, rituals, and nature by the Warli tribe from the northern Sahyadri range.",
+    category: "folk-arts",
+    region: "Maharashtra",
+    language: "Marathi",
+    type: "image",
+    tags: ["Warli", "Tribal Art", "Painting", "Maharashtra"],
+    thumbnail: folkArtsImg,
+    contributor: "Sunita Tadvi",
+    date: "2026-01-05",
+  },
+];
