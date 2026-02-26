@@ -1,73 +1,146 @@
-# Welcome to your Lovable project
+# 🇮🇳 Virasat AI – AI-Enhanced Digital Heritage Platform
 
-## Project info
+🚀 **Live Deployment:**  
+https://build-for-bharat-virasat-ai.vercel.app/
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 👥 Team Information
 
-There are several ways of editing your application.
+### Team Name  
+**Navonmesh**
 
-**Use Lovable**
+### Project Title  
+**Navonmesh – AI Enhanced Digital Heritage Platform**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Platform Name  
+**virasat.ai**
 
-Changes made via Lovable will be committed automatically to this repo.
+### Problem Statement  
+**AI-ENHANCED DIGITAL HERITAGE PLATFORM**
 
-**Use your preferred IDE**
+India’s intangible heritage — including folk traditions, manuscripts, oral histories, and regional knowledge systems — is rapidly disappearing.  
+The lack of centralized digital preservation, multilingual accessibility, and authenticity verification creates long-term cultural loss.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Track  
+**Open Innovation**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Team Members
 
-Follow these steps:
+- Member 1 – Backend  
+- Member 2 – Frontend  
+- Member 3 – Frontend  
+- Member 4 – UI/UX & Deployment  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📌 Overview
 
-# Step 3: Install the necessary dependencies.
-npm i
+**Virasat AI** is an AI-powered digital heritage preservation platform built to digitally safeguard India’s cultural legacy.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+The platform combines:
 
-**Edit a file directly in GitHub**
+- Artificial Intelligence  
+- Optical Character Recognition (OCR)  
+- Blockchain-based NFT verification  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+It enables communities to upload, digitize, verify, and preserve cultural content securely and at scale.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🧠 Problem Statement
 
-## What technologies are used for this project?
+India’s intangible cultural heritage faces several challenges:
 
-This project is built with:
+- Disappearing folk traditions and oral histories  
+- No centralized digital preservation system  
+- Language barriers limiting accessibility  
+- Lack of authenticity verification for digital cultural assets  
 
-- Vite
-- TypeScript
+---
+
+## 💡 Our Solution
+
+Virasat AI provides:
+
+- 📤 Community-driven cultural content uploads  
+- 🧾 AI-based transcription & smart semantic tagging  
+- 🔍 OCR for digitizing manuscripts & inscriptions  
+- 🌍 Multilingual search across regional languages  
+- 🔗 NFT-based digital certificates for authenticity & ownership  
+
+---
+
+## 🚀 Key Features
+
+- AI + OCR + Blockchain in one unified heritage platform  
+- Blockchain-verified digital authenticity  
+- Multilingual discovery engine  
+- Community-powered digital archive  
+- Modular, API-based architecture  
+- Cloud-ready & scalable infrastructure  
+- Extendable for production use  
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
 
-## How can I deploy this project?
+### Backend
+- Node.js
+- FastAPI
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### Database
+- MongoDB
 
-## Can I connect a custom domain to my Lovable project?
+### Blockchain
+- Ethereum (NFT minting via Smart Contracts)
 
-Yes, you can!
+### Cloud Storage
+- Google Cloud Storage
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### AI Processing
+- OCR  
+- Speech-to-Text NLP  
+- Semantic Analysis  
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Ethics & Authenticity Layer
+- Cultural governance principles  
+- NFT verification  
+- Fair representation framework  
+
+---
+
+## 🏗 Architecture Overview
+
+User Upload → Cloud Storage → AI Processing (OCR / NLP) → Metadata Tagging → Database Storage → NFT Minting (Optional) → Public Discovery
+
+---
+
+## 🎯 USP
+
+✔ AI + OCR + Blockchain combined in one heritage ecosystem  
+✔ Verifiable digital ownership via NFTs  
+✔ Multilingual accessibility  
+✔ Community-first approach  
+✔ Scalable & production extendable  
+
+---
+
+## 🌍 Vision
+
+To preserve, protect, and digitally empower India’s cultural heritage using responsible AI and decentralized verification systems — ensuring long-term accessibility for future generations.
+
+---
+
+## 🔗 Live Platform
+
+👉 https://build-for-bharat-virasat-ai.vercel.app/
+
+---
+
+**Preserving the past with the power of AI.**
